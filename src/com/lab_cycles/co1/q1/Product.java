@@ -1,4 +1,4 @@
-package com.lab_cycles.cycle1.co1;
+package com.lab_cycles.co1.q1;
 
 public class Product {
     public String pcode;

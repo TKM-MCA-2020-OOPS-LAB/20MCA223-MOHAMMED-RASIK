@@ -1,4 +1,4 @@
-package com.lab_cycles.cycle1.co2;
+package com.lab_cycles.co1.q2;
 
 import java.util.Scanner;
 
