@@ -1,6 +1,7 @@
 <h3>OOPS LAB JAVA</h3>
 
 <h4>Course Outcome 1 (CO1):</h4>
+
 1. Define a class ‘product’ with data members pcode, pname and price. Create 3 objects of
    the class and find the product having the lowest price.
 2. Read 2 matrices from the console and perform matrix addition. 3. Add complex numbers
@@ -11,6 +12,7 @@
    <br>
    
 <h4>Course Outcome 2 (CO2)</h4>
+
 1. Program to Sort strings
 2. Search an element in an array.
 3. Perform string manipulations
@@ -19,6 +21,7 @@
    Objects. 
 
 <h4>Course Outcome 3(CO3):</h4>
+
 1. Area of different shapes using overloaded functions
 2. Create a class ‘Employee’ with data members Empid, Name, Salary, Address and
    constructors to initialize the data members. Create another class ‘Teacher’ that inherit the
@@ -47,6 +50,7 @@
    Net. Amount 150
 
 <h4>Course Outcome 4 (CO4):</h4>
+
 1. Create a Graphics package that has classes and interfaces for figures Rectangle, Triangle,
    Square and Circle. Test the package by finding the area of these figures.
 2. Create an Arithmetic package that has classes and interfaces for the 4 basic arithmetic
@@ -73,6 +77,7 @@
 18. Program to Convert HashMap to TreeMap 
 
 <h4>Course Outcome 5 (CO5):</h4>
+
 1. Program to draw Circle, Rectangle, Line in Applet.
 2. Program to find maximum of three numbers using AWT.
 3. Find the percentage of marks obtained by a student in 5 subjects. Display a happy face if
@@ -86,7 +91,9 @@
 7. Develop a program to handle all mouse events and window events
 8. Develop a program to handle Key events.
 
+
 <h4>Course Outcome 6 (CO6):</h4>
+
 1. Program to list the sub directories and files in a given directory and also search for a file
    name.
 2. Write a program to write to a file, then read from the file and display the contents on the
