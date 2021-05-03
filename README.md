@@ -1,7 +1,6 @@
-<h3>OOPS LAB JAVA</h3> 
+<h3>OOPS LAB JAVA</h3>
 
-<b>Course Level Assessment Questions</b><br>
-<b>Course Outcome 1 (CO1):</b>
+<h4>Course Outcome 1 (CO1):</h4>
 1. Define a class ‘product’ with data members pcode, pname and price. Create 3 objects of
    the class and find the product having the lowest price.
 2. Read 2 matrices from the console and perform matrix addition. 3. Add complex numbers
@@ -10,14 +9,16 @@
    and static nested class RAM (memory, manufacturer). Create an object of CPU and print
    information of Processor and RAM.
    <br>
-   <b>Course Outcome 2 (CO2)</b>
+   
+<h4>Course Outcome 2 (CO2)</h4>
 1. Program to Sort strings
 2. Search an element in an array.
 3. Perform string manipulations
 4. Program to create a class for Employee having attributes eNo, eName eSalary. Read n
    employ information and Search for an employee given eNo, using the concept of Array of
-   Objects.
-   Course Outcome 3(CO3):
+   Objects. 
+
+<h4>Course Outcome 3(CO3):</h4>
 1. Area of different shapes using overloaded functions
 2. Create a class ‘Employee’ with data members Empid, Name, Salary, Address and
    constructors to initialize the data members. Create another class ‘Teacher’ that inherit the
