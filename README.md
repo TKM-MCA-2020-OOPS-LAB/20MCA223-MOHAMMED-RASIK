@@ -43,13 +43,16 @@
    classes Circle and Rectangle which implements the above interface. Create a menu driven
    program to find area and perimeter of objects.
 7. Prepare bill with the given format using calculate method from interface.
-   Order No.
+   <pre>
+   Order No. 
    Date :
    Product Id Name Quantity unit price Total
-   101 A 2 25 50
-   102 B 1 100 100
-   Net. Amount 150
-
+   -----------------------------------------
+   101        A    2        25         50
+   102        B    1        100        100
+   -----------------------------------------
+                           Net. Amount 150
+   </pre>
 <h4>Course Outcome 4 (CO4):</h4>
 
 1. Create a Graphics package that has classes and interfaces for figures Rectangle, Triangle,
