@@ -22,7 +22,6 @@
    Objects. 
 
 <h4>Course Outcome 3(CO3):</h4>
-
 1. Area of different shapes using overloaded functions
 2. Create a class ‘Employee’ with data members Empid, Name, Salary, Address and
    constructors to initialize the data members. Create another class ‘Teacher’ that inherit the
@@ -40,6 +39,9 @@
    and print the details of books from either the category, using inheritance.
 5. Create classes Student and Sports. Create another class Result inherited from Student and
    Sports. Display the academic and sports score of a student. 6. Create an interface having prototypes of functions area() and perimeter(). Create two
+   classes Circle and Rectangle which implements the above interface. Create a menu driven
+   program to find area and perimeter of objects.
+6. Create an interface having prototypes of functions area() and perimeter(). Create two
    classes Circle and Rectangle which implements the above interface. Create a menu driven
    program to find area and perimeter of objects.
 7. Prepare bill with the given format using calculate method from interface.
