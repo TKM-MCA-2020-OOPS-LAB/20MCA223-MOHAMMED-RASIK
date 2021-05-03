@@ -38,9 +38,7 @@
 4. Write a program has class Publisher, Book, Literature and Fiction. Read the information
    and print the details of books from either the category, using inheritance.
 5. Create classes Student and Sports. Create another class Result inherited from Student and
-   Sports. Display the academic and sports score of a student. 6. Create an interface having prototypes of functions area() and perimeter(). Create two
-   classes Circle and Rectangle which implements the above interface. Create a menu driven
-   program to find area and perimeter of objects.
+   Sports. Display the academic and sports score of a student.
 6. Create an interface having prototypes of functions area() and perimeter(). Create two
    classes Circle and Rectangle which implements the above interface. Create a menu driven
    program to find area and perimeter of objects.
