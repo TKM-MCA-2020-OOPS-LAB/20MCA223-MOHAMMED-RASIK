@@ -24,6 +24,7 @@ public class Main
         {
             for (int j = 0; j < cols; j++)
             {
+                System.out.println("Input number for matrix position ["+(i+1)+"]["+(j+1)+"] : ");
                 matrix[i][j] = sc.nextInt();
             }
         }
