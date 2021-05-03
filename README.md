@@ -1,9 +1,7 @@
-# 20MCA223-MOHAMMED-RASIK
+<h3>OOPS LAB JAVA</h3> 
 
-<h1>OOPS LAB JAVA</h1> 
-
-Course Level Assessment Questions
-Course Outcome 1 (CO1):
+<b>Course Level Assessment Questions</b><br>
+<b>Course Outcome 1 (CO1):</b>
 1. Define a class ‘product’ with data members pcode, pname and price. Create 3 objects of
    the class and find the product having the lowest price.
 2. Read 2 matrices from the console and perform matrix addition. 3. Add complex numbers
@@ -11,7 +9,8 @@ Course Outcome 1 (CO1):
 5. Create CPU with attribute price. Create inner class Processor (no. of cores, manufacturer)
    and static nested class RAM (memory, manufacturer). Create an object of CPU and print
    information of Processor and RAM.
-   Course Outcome 2 (CO2)
+   <br>
+   <b>Course Outcome 2 (CO2)</b>
 1. Program to Sort strings
 2. Search an element in an array.
 3. Perform string manipulations
