@@ -14,7 +14,7 @@ public class Teacher extends Employee {
 
     void displayTeacherDetails()
     {
-        System.out.println("Empid : "+this.Empid+" Name : "+this.Name+" Salary : "+this.Salary+" Address : "+this.Address+"department : "+this.department+" Subjects : "+this.Subjects);
+        System.out.println("Empid : "+this.Empid+" Name : "+this.Name+" Gender : "+this.Gender+" Age : "+this.Age+" Salary : "+this.Salary+" Address : "+this.Address+"department : "+this.department+" Subjects : "+this.Subjects);
     }
 
 }
