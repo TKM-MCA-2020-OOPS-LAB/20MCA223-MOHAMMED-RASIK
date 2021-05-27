@@ -1,6 +1,6 @@
 package com.lab_cycles.co3.q5;
 
-public class Result extends Student {
+public class Result extends Sports {
 
     public void displayInfo()
     {
@@ -10,6 +10,7 @@ public class Result extends Student {
         System.out.println("Science : "+this.science);
         System.out.println("English : "+this.english);
         System.out.println("Social Science : "+this.socialScience);
+        System.out.println("Sports Grace : "+this.grace);
         System.out.println("---------------");
 
 
