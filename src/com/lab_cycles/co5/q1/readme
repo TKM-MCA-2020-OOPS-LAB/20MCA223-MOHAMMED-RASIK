@@ -1,0 +1,3 @@
+javac Drawing.java
+appletviewer index.html
+
