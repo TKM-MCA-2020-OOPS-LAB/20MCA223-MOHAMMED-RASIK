@@ -1,6 +1,9 @@
+package com.lab_cycles.co5.q1;
+
 import java.applet.Applet;  
 import java.awt.*;  
   
+@SuppressWarnings("deprecation")
 public class Drawing extends Applet{  
   
 public void paint(Graphics g){  
