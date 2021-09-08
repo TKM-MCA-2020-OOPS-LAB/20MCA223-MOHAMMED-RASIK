@@ -86,7 +86,8 @@
 13. Program to demonstrate the creation of queue object using the PriorityQueue class
 14. Program to demonstrate the addition and deletion of elements in deque
 15. Program to demonstrate the creation of Set object using the LinkedHashset class
-16. Write a Java program to compare two hash set17. Program to demonstrate the working of Map interface by adding, changing and removing
+16. Write a Java program to compare two hash sets.
+17. Program to demonstrate the working of Map interface by adding, changing and removing
     elements.
 18. Program to Convert HashMap to TreeMap 
 
