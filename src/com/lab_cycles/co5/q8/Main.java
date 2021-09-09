@@ -1,4 +1,3 @@
-package com.lab_cycles.co5.q6;
 
 
 import java.awt.*;
