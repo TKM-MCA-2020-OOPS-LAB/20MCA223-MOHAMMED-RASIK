@@ -3,7 +3,7 @@
 import java.awt.*;
 import java.applet.*;
  
-public class Drawing extends Applet implements ActionListener
+public class Drawing extends Applet 
 {
 /*
 <applet code="Main184.class" width=400 height=450></applet>

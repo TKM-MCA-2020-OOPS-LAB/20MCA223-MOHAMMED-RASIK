@@ -1,60 +1,63 @@
-package com.lab_cycles.co5.q6;
+
 
 import java.applet.*;
 import java.awt.*;
+import java.awt.Graphics;
 import java.awt.event.*;
-
-public class Main extends Applet implements ItemListener {
-
-    Choice ch;
-    int c;
-    Label title;
-    public void init()
+public class Main extends Applet implements ItemListener
+     {
+        Choice figure = new Choice(); 
+        int Select;   
+       public void init()
+       {  
+ 
+         figure.addItem("Select your choice");
+         figure.addItem("Rectangle");
+         figure.addItem("Square");
+         figure.addItem("Circle");
+         figure.addItem("Triangle");
+         add(figure);
+         figure.addItemListener(this);
+        
+        
+           
+       }
+      public void itemStateChanged (ItemEvent e)
     {
-        title = new Label("SELECT A SHAPE FROM GIVEN CHOICES:  ");
-        ch = new Choice();
-        ch.addItem("...SHAPES....");
-        ch.addItem("RECTANGLE");
-        ch.addItem("TRIANGLE");
-        ch.addItem("SQUARE");
-        ch.addItem("CIRCLE");
-        add(title);
-        add(ch);
-        ch.addItemListener(this);
-    }
-
-    public void itemStateChanged (ItemEvent e)
-    {
-        c= ch.getSelectedIndex();
+       
+        Select = figure.getSelectedIndex();
         repaint();
+       
     }
 
-    public void paint(Graphics g)
-    {
-        super.paint(g);
+ public void paint(Graphics g)
+	{
+     
+g.setColor(Color.red);  
+         super.paint(g);
 
-        if (c == 1)
-        {
-            g.drawString(ch.getItem(1),220,235);
-            g.drawRect(150,70,200,150);
-        }
-        if (c == 2)
-        {
-            g.drawString(ch.getItem(2),45,205);
-            int[] x={80,160,5};
-            int[] y={70,170,170};
-            g.drawPolygon(x,y,3);
-        }
-        if (c == 3)
-        {
-            g.drawString(ch.getItem(3),200,265);
-            g.drawRect(200,200,50,50);
-
-        }
-        if (c ==4)
-        {
-            g.drawString(ch.getItem(4),190,290);
-            g.drawOval(170,170,90,90);
-        }
-    }
+         if (Select == 1)
+         {  
+             
+             g.drawRect(280, 100, 160,40);
+         }
+         if (Select == 2)
+         {
+        	 g.drawRect(50,50,100,100);
+         }
+         if (Select == 3)
+         {
+             
+             g.drawOval(150,150,100,100);
+         }
+         if (Select ==4)
+         {
+             g.drawLine(120, 130, 280, 130);
+             g.drawLine(120, 130, 200, 65);
+             g.drawLine(200, 65, 280, 130);
+         }
+	}
 }
+
+/* <applet code="choice.class" height=150 width=400>
+   </applet> */
